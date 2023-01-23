@@ -6,6 +6,7 @@
         "start": "php artisan serve",
         "migrate": "php artisan migrate",
         "seed": "php artisan db:seed",
+        "livewire": "composer require livewire/livewire",
         "breeze": "composer require laravel/breeze --dev",
         "breeze-install": "php artisan breeze:install",
         "laratrust": "composer require santigarcor/laratrust",
