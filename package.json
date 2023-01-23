@@ -4,7 +4,7 @@
         "dev": "vite",
         "build": "vite build",
         "start": "php artisan serve",
-        "migrate": "php artisan migrate",
+        "mgrt": "php artisan migrate",
         "seed": "php artisan db:seed",
         "livewire": "composer require livewire/livewire",
         "ui-install": "composer require laravel/ui",
@@ -17,7 +17,9 @@
         "laratrust-seeder": "php artisan laratrust:seeder",
         "controller": "php artisan make:controller <File name>Controller",
         "model": "php artisan make:model <File name> -m",
-        "middleware": "php artisan make:middleware AdminMiddleware"
+        "middleware": "php artisan make:middleware <File name>Middleware",
+        "migrate": "php artisan make:migration <File name>_table",
+        "request": "php artisan make:request <File name>Request"
     },
     "devDependencies": {
         "axios": "^1.1.2",
