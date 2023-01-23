@@ -15,8 +15,9 @@
         "laratrust-setup": "php artisan laratrust:setup",
         "autoload": "composer dump-autoload",
         "laratrust-seeder": "php artisan laratrust:seeder",
-        "controller": "php artisan make:controller Admin/DashboardController",
-        "model": "php artisan make:model <File name> -m"
+        "controller": "php artisan make:controller <File name>Controller",
+        "model": "php artisan make:model <File name> -m",
+        "middleware": "php artisan make:middleware AdminMiddleware"
     },
     "devDependencies": {
         "axios": "^1.1.2",
