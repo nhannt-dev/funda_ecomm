@@ -1,3 +1,5 @@
 http://localhost/phpmyadmin/index.php?route=/database/structure&db=funda_ecomm
 
 http://127.0.0.1:8000/
+
+http://127.0.0.1:8000/admin/dashboard
