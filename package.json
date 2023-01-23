@@ -7,6 +7,8 @@
         "migrate": "php artisan migrate",
         "seed": "php artisan db:seed",
         "livewire": "composer require livewire/livewire",
+        "ui-install": "composer require laravel/ui",
+        "ui": "php artisan ui:auth",
         "breeze": "composer require laravel/breeze --dev",
         "breeze-install": "php artisan breeze:install",
         "laratrust": "composer require santigarcor/laratrust",
