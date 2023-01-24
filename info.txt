@@ -5,3 +5,5 @@ http://127.0.0.1:8000/
 http://127.0.0.1:8000/admin/dashboard
 
 http://127.0.0.1:8000/admin/category
+
+http://127.0.0.1:8000/admin/brands

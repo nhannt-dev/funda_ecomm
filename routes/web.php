@@ -32,4 +32,6 @@ Route::prefix('admin')->middleware(['auth', 'isAdmin'])->group(function () {
         Route::get('category/edit/{category}', 'Edit')->name('editcategory');
         Route::put('category/edit/{category}', 'Update')->name('updatecategory');
     });
+
+    Route::get('brands', App\Http\Livewire\Admin\Brand\Index::class)->name('brands');
 });
