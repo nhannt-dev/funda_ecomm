@@ -19,7 +19,7 @@
         "model": "php artisan make:model <File name> -m",
         "middleware": "php artisan make:middleware <File name>Middleware",
         "migrate": "php artisan make:migration <File name>_table",
-        "request": "php artisan make:request <File name>Request"
+        "request": "php artisan make:request ProductFormRequest"
     },
     "devDependencies": {
         "axios": "^1.1.2",
