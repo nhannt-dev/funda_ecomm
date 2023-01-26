@@ -45,4 +45,13 @@ Route::prefix('admin')->middleware(['auth', 'isAdmin'])->group(function () {
         Route::get('product/remove/{id}', 'RemoveImg')->name('removeimage');
         Route::get('product/delete/{id}', 'Delete')->name('deleteproduct');
     });
+    
+    Route::controller(\App\Http\Controllers\Admin\ColorController::class)->group(function () {
+        Route::get('colors', 'Index')->name('color');
+        Route::get('color/create', 'Create')->name('createcolor');
+        Route::post('colors/', 'Store')->name('storecolor');
+        Route::get('colors/edit/{color}', 'Edit')->name('editcolor');
+        Route::put('color/update/{id}', 'Update')->name('updatecolor');
+        Route::get('colors/delete/{color}', 'Delete')->name('deletecolor');
+    });
 });
